@@ -1,0 +1,167 @@
+#head{
+    background-color: rgb(92, 190, 92);
+    color: white;
+    text-align: center;
+}
+#navbar{
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+}
+#print{
+    background-image: url(images/backg.jpeg);
+    background-repeat: no-repeat;
+    background-position: initial;
+    background-size: cover;
+    padding: 10%;
+    text-align: center;
+    color: white;
+}
+
+#indi{
+    border: solid black;
+    text-align: center;
+    padding: 15px;
+}
+#timeless{
+    display: flex;
+    gap: 40px;
+}
+#apple{
+    border-radius: 80px;
+    background-color:rgb(92, 190, 92) ;
+    color: white;
+    width: 90px;
+    height: 30px;
+}
+#play{
+    border-radius: 80px;
+    width: 90px;
+    height: 30px;
+}
+
+#ads{
+    display: flex;
+    gap: 70px;
+    background-color: rgb(226, 229, 231);
+}
+#rasi{
+    text-align: center;
+}
+#array{
+    display: flex;
+    gap: 20px;
+}
+#companyflex{
+    display:flex ;
+    gap: 50px;
+}
+#highq{
+    display: flex;
+    gap: 40px;
+}
+#fash{
+    display: flex;
+    gap: 50px;
+}
+#show{
+    text-align: center;
+}
+#pictures{
+    display: flex;
+    gap: 40px;
+}
+#reach{
+    text-align: center;
+}
+#cont{
+    background-image: url(images/seoul.png);
+    background-repeat: no-repeat;
+    background-position: initial;
+    background-size: cover;
+    padding: 10%;
+    text-align: center;  
+}
+#footer{
+    background-color: rgb(14, 14, 36);
+    color: white;
+    display: flex;
+    gap: 40px;
+    text-align: center;
+}
+#high{
+    width:450px; 
+    height:400px;
+}
+@media screen and (min-width:300px)and (max-width:768px){
+    #navbar{
+        list-style-type: none;
+        display: flex;
+        gap: 5px;
+    } 
+    #print{
+        background-image: url(images/backg.jpeg);
+        background-repeat: no-repeat;
+        background-position: initial;
+        background-size: cover;
+        padding: 10%;
+        text-align: center;
+        color: white;
+        width: 300px;
+    }
+    #timeless{
+        display: block;
+        gap: 40px;
+    }
+    #ads{
+        display: block;
+        gap: 70px;
+        background-color: rgb(226, 229, 231);
+    }
+    #array{
+        display: block;
+        gap: 20px;
+    }
+    #companyflex{
+        display:block;
+        gap: 50px;
+    }
+    #highq{
+        display: block;
+        gap: 40px;
+    }
+    #fash{
+        display: block;
+        gap: 50px;
+    }
+    #show{
+        text-align: center;
+    }
+    #pictures{
+        display: block;
+        gap: 40px;
+    }
+    #reach{
+        text-align: center;
+    }
+    #cont{
+        background-image: url(images/seoul.png);
+        background-repeat: no-repeat;
+        background-position: initial;
+        background-size: cover;
+        padding: 10%;
+        text-align: center;  
+    }
+    #footer{
+        background-color: rgb(14, 14, 36);
+        color: white;
+        display: block;
+        gap: 40px;
+        text-align: center;
+    }
+    #high{
+        width:200px; 
+        height:200px;
+    }
+}
+
